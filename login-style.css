@@ -1,0 +1,116 @@
+.container {
+    width: auto;
+}
+
+.container img,
+.container p,
+.container .sign-in,
+.container .new-acc {
+    display: block;
+    margin: 0 auto;
+}
+
+img {
+    width: 300px;
+}
+
+.paragraf-1,
+.paragraf-2 {
+    color: #b0b3ba;
+    text-align: center;
+}
+
+.paragraf-1 {
+    font-size: 5em;
+}
+
+.paragraf-2 {
+    font-size: 2em;
+    word-spacing: 2px;
+}
+
+.sign-in {
+    width: 550px;
+    height: 600px;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    position: relative;
+    top: 30px;
+}
+
+.ikona {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 200px;
+    position: relative;
+    top: 50px;
+    margin: 0 auto;
+}
+
+.user {
+    font-size: 200px;
+    color: #b0b3ba;
+    position: relative;
+    top: -15px;
+}
+
+.user:hover {
+    color:#a8a8a8;
+}
+
+.vnos {
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 70px;
+    left: 60px;
+    margin: 10px;
+    text-indent: 15px;
+}
+
+.vnos::placeholder {
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+button {
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: 70px;
+    left: 60px;
+    margin: 10px;
+    background-color: #3a68e8;
+    font-size: 1.5em;
+    color: white;
+}
+
+input[type="checkbox"] {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 150px;
+    right: 350px;
+}
+
+.label-text {
+    display: inline-block;
+    position: relative;
+    top: 150px;
+    right: 350px;
+}
+
+.new-acc a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.new-acc a:hover {
+    font-weight: bold;
+}
